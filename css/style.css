@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  background-color: #000;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 28px;
+  color: white;
+}
+
+header h1 span {
+  color: #00ffff;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.ativo {
+  color: #00ffff;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00ffff;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 40px;
+  animation: slideDown 1s ease;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  animation: slideDown 1.3s ease;
+}
+
+h2 span, h3 span {
+  color: #00ffff;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  font-size: 16px;
+  animation: fadeIn 2s ease;
+}
+
+.redes a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: white;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.redes a:hover {
+  transform: scale(1.2);
+  color: #00ffff;
+}
+
+/* Animações */
+@keyframes slideDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 180px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+/* Botão animado */
+button {
+  background-color: #00ffff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #00cccc;
+  transform: scale(1.05);
+}
+
+/* Tema Claro/Escuro */
+body.light-mode {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+body.light-mode header {
+  background-color: #fff;
+  color: #000;
+}
+
+body.light-mode nav a {
+  color: #111;
+}
+
+body.light-mode nav a:hover,
+body.light-mode nav a.ativo {
+  color: #00aaaa;
+}
+
+body.light-mode h2 span,
+body.light-mode h3 span {
+  color: #00aaaa;
+}
+
+body.light-mode .avatar {
+  box-shadow: 0 0 20px #00aaaa;
+}
+
+.theme-toggle {
+  margin-left: 20px;
+  background: none;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #00ffff;
+  color: #000;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+.icones-redes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.icones-redes a {
+  font-size: 28px;
+  color: #00ffff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icones-redes a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}

@@ -1,0 +1,190 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background-color: #111;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #000;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: white;
+}
+
+header h1 span {
+  color: #00ffff;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.ativo {
+  color: #00ffff;
+}
+
+/* BOTÃO ALTERAR TEMA */
+.theme-toggle {
+  background: none;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #00ffff;
+  color: #000;
+}
+
+/* HERO */
+.project-hero {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1531497865147-5349f1f90b0e?fit=crop&w=1350')
+    center/cover no-repeat;
+  padding: 80px 20px;
+}
+
+.project-hero .content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.project-hero .text {
+  flex: 1 1 500px;
+}
+
+.project-hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.project-hero h2 span {
+  color: #00ffff;
+}
+
+.project-hero p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.project-hero .image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px #00ffff, 0 0 60px #ff00ff;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #00ffff;
+  color: #000;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #00cccc;
+}
+
+.voltar {
+  background-color: transparent;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+}
+
+.voltar:hover {
+  background-color: #00ffff;
+  color: #000;
+}
+
+/* DETALHES */
+.details {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.details h3 {
+  font-size: 26px;
+  color: #00ffff;
+  margin-bottom: 15px;
+}
+
+.details ul {
+  margin-bottom: 30px;
+}
+
+.details li {
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.details li i {
+  color: #00ffff;
+  margin-right: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #999;
+  font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .project-hero .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

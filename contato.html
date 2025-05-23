@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contato - Marcos Henrique</title>
-  <!-- Font Awesome para ícones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style-contato.css" />
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Marcos <span>Henique</span></h1>
+    <h1>Marcos <span>Henrique</span></h1>
     <nav>
       <a href="index.html">Início</a>
       <a href="sobre.html">Sobre</a>
@@ -19,20 +19,67 @@
       <a href="contato.html" class="ativo">Contato</a>
     </nav>
     <button class="theme-toggle" onclick="document.body.classList.toggle('light-mode')">
-      Alternar Tema
+      <i class="fas fa-adjust"></i> Alternar Tema
     </button>
   </header>
-  <main class="fade-in">
-    <h2>Fale Comigo</h2>
-    <p>Quer bater um papo ou tirar dúvidas? Me chama nas redes sociais abaixo!</p>
-    <section class="redes">
-      <div class="icones-redes">
-        <a href="https://www.instagram.com/elmarcoshenrique" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/marcos-henrique-338554238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/MarcowDev" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:hanry.marcos018@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+
+  <!-- HERO -->
+  <section class="contact-hero">
+    <h2>Entre em <span>Contato</span></h2>
+    <p>Vamos conversar sobre seu projeto, ideia ou parceria. Me chame por aqui 👇</p>
+  </section>
+
+  <!-- FORM CONTATO -->
+  <section class="contact">
+    <div class="contact-container">
+
+      <div class="contact-info">
+        <h3>Redes & Contato</h3>
+        <p><i class="fas fa-envelope"></i> hanry.marcos018@gmail.com</p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/553171536509" target="_blank">+55 31 7153-6509</a></p>
+
+        <div class="icones-redes">
+          <a href="https://www.instagram.com/elmarcoshenrique" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/marcos-henrique-338554238" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/MarcowDev" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
       </div>
-    </section>
-  </main>
+
+      <div class="contact-form">
+        <h3>Envie uma Mensagem</h3>
+        <form id="contactForm">
+  <input type="text" id="name" placeholder="Seu nome" required />
+  <input type="email" id="email" placeholder="Seu email" required />
+  <textarea id="message" placeholder="Sua mensagem" required></textarea>
+  <button type="submit">Enviar no WhatsApp</button>
+</form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Marcos Henrique. Todos os direitos reservados.</p>
+  </footer>
+  <script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Impede o envio padrão do formulário
+
+    const nome = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('message').value;
+
+    const texto = `Olá! Me chamo *${nome}*.\n\nEmail: *${email}*\n\nMensagem:\n${mensagem}`;
+    const numero = '5531991317932'; // <-- seu número com DDI e DDD sem + nem espaços
+
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+
+    window.open(url, '_blank'); // Abre em nova aba
+  });
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre - Marcos Henrique</title>
   <!-- Font Awesome para ícones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style-sobre.css">
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
     <h1>Marcos <span>Henrique</span></h1>
     <nav>
@@ -19,28 +21,52 @@
       <a href="contato.html">Contato</a>
     </nav>
     <button class="theme-toggle" onclick="document.body.classList.toggle('light-mode')">
-        Alternar Tema
-      </button>
-
+      <i class="fas fa-adjust"></i> Alternar Tema
+    </button>
   </header>
-  <main class="fade-in">
-    <h2>Sobre Mim</h2>
 
-    <p>Olá! Eu sou o Marcos Henrique Silva, um entusiasta de tecnologia em constante aprendizado.</p>
-    <p>Desde que descobri o mundo da programação, venho dedicando tempo e energia para me tornar um desenvolvedor Full Stack de excelência.</p>
-    <p>Estou estudando HTML, CSS, JavaScript e outras tecnologias para criar interfaces interativas e funcionais.</p>
-    <p>Meu objetivo é dominar tanto o front-end quanto o back-end, para poder desenvolver aplicações completas e inovadoras.</p>
-    <p>Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</p>
-    <p>Se você está interessado em colaborar ou tem alguma dúvida, não hesite em entrar em contato!</p>
-    <section class="redes">
-       
-        <div class="icones-redes">
-          <a href="https://www.instagram.com/elmarcoshenrique" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/marcos-henrique-338554238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/MarcowDev" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="mailto:hanry.marcos018@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+  <!-- MAIN -->
+  <main>
+    <section class="about-hero">
+      <div class="about-content">
+
+        <div class="about-text">
+          <h2>Sobre <span>Mim</span></h2>
+          <p>Olá! Eu sou o <strong>Marcos Henrique Silva</strong>, um entusiasta de tecnologia apaixonado por desenvolvimento web e soluções criativas.</p>
+          <p>Desde que conheci a programação, dedico meu tempo e energia para me tornar um desenvolvedor <strong>Full Stack</strong> de excelência.</p>
+          <p>Domino tecnologias como <strong>HTML, CSS, JavaScript, Python e Django</strong> e estou sempre aprimorando minhas habilidades para criar soluções incríveis.</p>
+          <p>Meu objetivo é desenvolver aplicações <strong>rápidas, responsivas, intuitivas e que realmente entreguem valor</strong>.</p>
+          <p>Busco desafios constantes, aprendizado e evolução profissional.</p>
+          <p>Se quiser colaborar, trocar ideia ou pedir um orçamento, <strong>me chama nas redes abaixo!</strong></p>
+
+          <!-- REDES -->
+          <div class="redes">
+            <div class="icones-redes">
+              <a href="https://www.instagram.com/elmarcoshenrique" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/marcos-henrique-338554238" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/MarcowDev" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="mailto:hanry.marcos018@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+              <a href="https://wa.me/553171536509" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
         </div>
-      </section>
+
+        <!-- AVATAR -->
+        <div class="about-avatar">
+          <img src="imagens/seu-personagem.jpg" alt="Marcos Henrique" class="avatar">
+        </div>
+
+      </div>
+    </section>
   </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Marcos Henrique. Todos os direitos reservados.</p>
+    <p>Desenvolvido com ❤️ e muita dedicação.</p>
+  </footer>
+
 </body>
 </html>
+<!-- 
+ -->

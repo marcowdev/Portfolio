@@ -10,6 +10,7 @@ body {
   background-color: #111;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  animation: fadeIn 1s ease;
 }
 
 /* ================= HEADER ================= */
@@ -50,7 +51,6 @@ nav a.ativo {
   color: #00ffff;
 }
 
-/* BOTÃO ALTERAR TEMA */
 .theme-toggle {
   background: none;
   border: 2px solid #00ffff;
@@ -74,6 +74,7 @@ nav a.ativo {
     center/cover no-repeat;
   padding: 80px 20px;
   text-align: center;
+  animation: fadeIn 1.2s ease;
 }
 
 .projects-hero h2 {
@@ -95,6 +96,11 @@ nav a.ativo {
   padding: 60px 20px;
 }
 
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .project-cards {
   display: flex;
   gap: 30px;
@@ -111,7 +117,7 @@ nav a.ativo {
   border: 2px solid transparent;
   box-shadow: 0 0 10px rgba(0,255,255,0.2);
   transition: 0.3s;
-  position: relative;
+  animation: fadeIn 1.3s ease;
 }
 
 .card img {
@@ -151,6 +157,29 @@ nav a.ativo {
   box-shadow: 0 0 20px rgba(0,255,255,0.6);
 }
 
+/* ================= PROGRESS BAR ================= */
+.progress-bar {
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #00ffff;
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+  text-align: right;
+}
+
 /* ================= FOOTER ================= */
 footer {
   background-color: #000;
@@ -173,6 +202,10 @@ body.light-mode header {
   background-color: #fff;
 }
 
+body.light-mode header h1 {
+  color: #111;
+}
+
 body.light-mode nav a {
   color: #111;
 }
@@ -183,13 +216,15 @@ body.light-mode nav a.ativo {
 }
 
 body.light-mode .projects-hero {
-  background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
     url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=1350')
     center/cover no-repeat;
+  color: #111;
 }
 
 body.light-mode .card {
   background-color: #fff;
+  color: #000;
 }
 
 body.light-mode .card h3 {
@@ -219,4 +254,27 @@ body.light-mode footer p {
     flex-direction: column;
     align-items: center;
   }
+
+  .projects-hero h2 {
+    font-size: 32px;
+  }
+
+  .projects-hero p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+/* ================= ANIMAÇÕES ================= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(10px); }
 }

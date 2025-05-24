@@ -1,0 +1,172 @@
+[
+  {
+    "nome": "Queen of Braids",
+    "descricao": "Site para agendamentos com calendário interativo. ",
+    "status": "concluido",
+    "progresso": 100,
+    "tecnologias": ["HTML", "CSS", "JS"],
+    "linkSite": "https://queenofbraids.netlify.app",
+    "linkGithub": "https://github.com/marcowdev/Queen_of_braids",
+    "imagem": "imagens/queen_of_braids.jpg"
+  },
+  {
+    "nome": "OneUp",
+    "descricao": "Plataforma gamer em desenvolvimento.",
+    "status": "em desenvolvimento",
+    "progresso": 40,
+    "tecnologias": ["HTML", "CSS", "JS", "Django"],
+    "linkSite": "#",
+    "linkGithub": "https://github.com/marcowdev/One_up",
+    "imagem": "oneup.png"
+  },
+  {
+    "nome": "Portfólio",
+    "descricao": "Meu portfólio pessoal.",
+    "status": "concluido",
+    "progresso": 100,
+    "tecnologias": ["HTML", "CSS", "JS"],
+    "linkSite": "#",
+    "linkGithub": "#",
+    "imagem": "imagens/portfolio.jpg"
+  },
+  {
+    "nome": "Landing Page tech",
+    "descricao": "Landing tech page em desenvolvimento.",
+    "status": "em desenvolvimento",
+    "progresso": 1,
+    "tecnologias": ["HTML", "CSS", "JS", "React"],
+    "linkSite": "#",
+    "linkGithub": "#",
+    "imagem": "#"
+  },
+  {
+    "nome": "Loja online",
+    "descricao": "Loja online em desenvolvimento.",
+    "status": "em desenvolvimento",
+    "progresso": 1,
+    "tecnologias": ["HTML", "CSS", "JS", "React"],
+    "linkSite": "#",
+    "linkGithub": "#",
+    "imagem": "#"
+  },
+    {
+        "nome": "site para autoescola",
+        "descricao": "Site para autoescola em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Dashboard financeiro",
+        "descricao": "Sistema de gestão em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Blog minimalista",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "App de tarefas",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "API RESTful",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Portfólio interativo",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Site de eventos",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Site de receitas",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Site de portfólio",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Site de notícias e tecnologia",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "Site de gerenciamento de tarefas",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    },
+    {
+        "nome": "loja virtual",
+        "descricao": "Sistema em desenvolvimento.",
+        "status": "em desenvolvimento",
+        "progresso": 1,
+        "tecnologias": ["HTML", "CSS", "JS", "React"],
+        "linkSite": "#",
+        "linkGithub": "#",
+        "imagem": "#"
+    }
+]

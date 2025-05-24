@@ -70,9 +70,9 @@ Foco em entregar **projetos rápidos, responsivos, modernos e profissionais.**
 
 📧 hanry.marcos018@gmail.com
 
-💼 *[LinkedIn] (ttps://www.linkedin.com/in/marcos-henrique-338554238)*
+💼 *[LinkedIn](ttps://www.linkedin.com/in/marcos-henrique-338554238)*
 
-🌐 *[Portfólio Online] (https://portfoliomarcowdev.netlify.app)*
+🌐 *[Portfólio Online](https://portfoliomarcowdev.netlify.app)*
 
 
 

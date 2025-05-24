@@ -48,7 +48,7 @@ Foco em entregar **projetos rápidos, responsivos, modernos e profissionais.**
 
 | Projeto                    | Status                | Link               |
 |----------------------------|-----------------------|--------------------|
-| Queen Of Braids            | ✅ Concluído          | [Ver projeto](https://portfoliomarcowdev.netlify.app) |
+| Queen Of Braids            | ✅ Concluído          | [Ver projeto](https://queen-of-braids.netlify.app) |
 | Landing Page Tech          | 🔧 Em desenvolvimento | - |
 | Dashboard Financeiro       | 🔧 Em desenvolvimento | - |
 | Site de Receitas           | 🔧 Em desenvolvimento | - |

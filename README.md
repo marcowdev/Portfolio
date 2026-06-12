@@ -66,7 +66,6 @@ Foco em entregar **projetos rápidos, responsivos, modernos e profissionais.**
 
 <p>🤝 Contato</p>
 
-📧 marcos@aurorainteligencia.com.br
 
 📧 hanry.marcos018@gmail.com
 
